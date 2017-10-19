@@ -1,0 +1,6 @@
+framework module Pods_CoreML_Demo {
+  umbrella header "Pods-CoreML-Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

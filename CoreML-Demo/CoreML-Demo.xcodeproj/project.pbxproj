@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30768BF5A310AD57C66C6D70 /* Pods_CoreML_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E2F6038B5BAD3E98C353E7 /* Pods_CoreML_Demo.framework */; };
+		63239DF01F985207009411FA /* MobileNetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63239DEF1F985207009411FA /* MobileNetViewController.swift */; };
+		63239DF31F985B12009411FA /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 63239DF21F985B0F009411FA /* SqueezeNet.mlmodel */; };
+		63239DF51F985B37009411FA /* SqueezeNetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63239DF41F985B37009411FA /* SqueezeNetViewController.swift */; };
+		63239DF81F985D39009411FA /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 63239DF71F985D37009411FA /* GoogLeNetPlaces.mlmodel */; };
+		63239DFA1F985D50009411FA /* GoogLeNetPlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63239DF91F985D50009411FA /* GoogLeNetPlacesViewController.swift */; };
+		63239DFE1F985EEC009411FA /* Resnet50ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63239DFD1F985EEC009411FA /* Resnet50ViewController.swift */; };
+		63239DFF1F985EF8009411FA /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 63239DFC1F985ED5009411FA /* Resnet50.mlmodel */; };
+		63239E021F98609E009411FA /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 63239E011F986090009411FA /* Inceptionv3.mlmodel */; };
+		63239E041F9860B5009411FA /* Inceptionv3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63239E031F9860B5009411FA /* Inceptionv3ViewController.swift */; };
+		63239E071F9877C6009411FA /* VGG16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 63239E061F9877BE009411FA /* VGG16.mlmodel */; };
+		63239E091F9877E0009411FA /* VGG16ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63239E081F9877E0009411FA /* VGG16ViewController.swift */; };
+		63825FE01F94858E00973EA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63825FDF1F94858E00973EA7 /* AppDelegate.swift */; };
+		63825FE21F94858E00973EA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63825FE11F94858E00973EA7 /* ViewController.swift */; };
+		63825FE71F94858E00973EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63825FE61F94858E00973EA7 /* Assets.xcassets */; };
+		63825FEA1F94858E00973EA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63825FE81F94858E00973EA7 /* LaunchScreen.storyboard */; };
+		63825FF21F949F0700973EA7 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 63825FF11F949EFF00973EA7 /* MobileNet.mlmodel */; };
+		63825FF41F949FF100973EA7 /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63825FF31F949FF100973EA7 /* UIImage+CVPixelBuffer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63239DEF1F985207009411FA /* MobileNetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNetViewController.swift; sourceTree = "<group>"; };
+		63239DF21F985B0F009411FA /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		63239DF41F985B37009411FA /* SqueezeNetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqueezeNetViewController.swift; sourceTree = "<group>"; };
+		63239DF71F985D37009411FA /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
+		63239DF91F985D50009411FA /* GoogLeNetPlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogLeNetPlacesViewController.swift; sourceTree = "<group>"; };
+		63239DFC1F985ED5009411FA /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		63239DFD1F985EEC009411FA /* Resnet50ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resnet50ViewController.swift; sourceTree = "<group>"; };
+		63239E011F986090009411FA /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		63239E031F9860B5009411FA /* Inceptionv3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inceptionv3ViewController.swift; sourceTree = "<group>"; };
+		63239E061F9877BE009411FA /* VGG16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = VGG16.mlmodel; sourceTree = "<group>"; };
+		63239E081F9877E0009411FA /* VGG16ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGG16ViewController.swift; sourceTree = "<group>"; };
+		63825FDC1F94858E00973EA7 /* CoreML-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreML-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63825FDF1F94858E00973EA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63825FE11F94858E00973EA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63825FE61F94858E00973EA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63825FE91F94858E00973EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63825FEB1F94858E00973EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63825FF11F949EFF00973EA7 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		63825FF31F949FF100973EA7 /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		68E2F6038B5BAD3E98C353E7 /* Pods_CoreML_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreML_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA58D00C1995FE4E7B53BA4 /* Pods-CoreML-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreML-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreML-Demo/Pods-CoreML-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		CEF535E09E10882BC6FC55D6 /* Pods-CoreML-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreML-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreML-Demo/Pods-CoreML-Demo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63825FD91F94858E00973EA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30768BF5A310AD57C66C6D70 /* Pods_CoreML_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		516BB035E5071147EEAE92FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68E2F6038B5BAD3E98C353E7 /* Pods_CoreML_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63239DEE1F985051009411FA /* MobileNet */ = {
+			isa = PBXGroup;
+			children = (
+				63825FF11F949EFF00973EA7 /* MobileNet.mlmodel */,
+				63239DEF1F985207009411FA /* MobileNetViewController.swift */,
+			);
+			path = MobileNet;
+			sourceTree = "<group>";
+		};
+		63239DF11F985B07009411FA /* SqueezeNet */ = {
+			isa = PBXGroup;
+			children = (
+				63239DF21F985B0F009411FA /* SqueezeNet.mlmodel */,
+				63239DF41F985B37009411FA /* SqueezeNetViewController.swift */,
+			);
+			path = SqueezeNet;
+			sourceTree = "<group>";
+		};
+		63239DF61F985D2A009411FA /* GoogLeNetPlaces */ = {
+			isa = PBXGroup;
+			children = (
+				63239DF71F985D37009411FA /* GoogLeNetPlaces.mlmodel */,
+				63239DF91F985D50009411FA /* GoogLeNetPlacesViewController.swift */,
+			);
+			path = GoogLeNetPlaces;
+			sourceTree = "<group>";
+		};
+		63239DFB1F985EC1009411FA /* Resnet50 */ = {
+			isa = PBXGroup;
+			children = (
+				63239DFC1F985ED5009411FA /* Resnet50.mlmodel */,
+				63239DFD1F985EEC009411FA /* Resnet50ViewController.swift */,
+			);
+			path = Resnet50;
+			sourceTree = "<group>";
+		};
+		63239E001F986085009411FA /* Inceptionv3 */ = {
+			isa = PBXGroup;
+			children = (
+				63239E011F986090009411FA /* Inceptionv3.mlmodel */,
+				63239E031F9860B5009411FA /* Inceptionv3ViewController.swift */,
+			);
+			path = Inceptionv3;
+			sourceTree = "<group>";
+		};
+		63239E051F9877B2009411FA /* VGG16 */ = {
+			isa = PBXGroup;
+			children = (
+				63239E061F9877BE009411FA /* VGG16.mlmodel */,
+				63239E081F9877E0009411FA /* VGG16ViewController.swift */,
+			);
+			path = VGG16;
+			sourceTree = "<group>";
+		};
+		63825FD31F94858E00973EA7 = {
+			isa = PBXGroup;
+			children = (
+				63825FDE1F94858E00973EA7 /* CoreML-Demo */,
+				63825FDD1F94858E00973EA7 /* Products */,
+				992BD4154E59ED57750C1E9F /* Pods */,
+				516BB035E5071147EEAE92FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63825FDD1F94858E00973EA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63825FDC1F94858E00973EA7 /* CoreML-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63825FDE1F94858E00973EA7 /* CoreML-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				63239E051F9877B2009411FA /* VGG16 */,
+				63239E001F986085009411FA /* Inceptionv3 */,
+				63239DFB1F985EC1009411FA /* Resnet50 */,
+				63239DF61F985D2A009411FA /* GoogLeNetPlaces */,
+				63239DF11F985B07009411FA /* SqueezeNet */,
+				63239DEE1F985051009411FA /* MobileNet */,
+				63825FF31F949FF100973EA7 /* UIImage+CVPixelBuffer.swift */,
+				63825FDF1F94858E00973EA7 /* AppDelegate.swift */,
+				63825FE11F94858E00973EA7 /* ViewController.swift */,
+				63825FE61F94858E00973EA7 /* Assets.xcassets */,
+				63825FE81F94858E00973EA7 /* LaunchScreen.storyboard */,
+				63825FEB1F94858E00973EA7 /* Info.plist */,
+			);
+			path = "CoreML-Demo";
+			sourceTree = "<group>";
+		};
+		992BD4154E59ED57750C1E9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FA58D00C1995FE4E7B53BA4 /* Pods-CoreML-Demo.debug.xcconfig */,
+				CEF535E09E10882BC6FC55D6 /* Pods-CoreML-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63825FDB1F94858E00973EA7 /* CoreML-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63825FEE1F94858E00973EA7 /* Build configuration list for PBXNativeTarget "CoreML-Demo" */;
+			buildPhases = (
+				71D0621BFB1C8A2EC06544A5 /* [CP] Check Pods Manifest.lock */,
+				63825FD81F94858E00973EA7 /* Sources */,
+				63825FD91F94858E00973EA7 /* Frameworks */,
+				63825FDA1F94858E00973EA7 /* Resources */,
+				606F3A7C0273EB2F6F36FBF7 /* [CP] Embed Pods Frameworks */,
+				36EEA6798C0AB2D416F3343C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoreML-Demo";
+			productName = "CoreML-Demo";
+			productReference = 63825FDC1F94858E00973EA7 /* CoreML-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63825FD41F94858E00973EA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Devil;
+				TargetAttributes = {
+					63825FDB1F94858E00973EA7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 63825FD71F94858E00973EA7 /* Build configuration list for PBXProject "CoreML-Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63825FD31F94858E00973EA7;
+			productRefGroup = 63825FDD1F94858E00973EA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63825FDB1F94858E00973EA7 /* CoreML-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63825FDA1F94858E00973EA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63825FEA1F94858E00973EA7 /* LaunchScreen.storyboard in Resources */,
+				63825FE71F94858E00973EA7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36EEA6798C0AB2D416F3343C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreML-Demo/Pods-CoreML-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		606F3A7C0273EB2F6F36FBF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreML-Demo/Pods-CoreML-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71D0621BFB1C8A2EC06544A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63825FD81F94858E00973EA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63825FE21F94858E00973EA7 /* ViewController.swift in Sources */,
+				63239E041F9860B5009411FA /* Inceptionv3ViewController.swift in Sources */,
+				63239E021F98609E009411FA /* Inceptionv3.mlmodel in Sources */,
+				63239DFF1F985EF8009411FA /* Resnet50.mlmodel in Sources */,
+				63239DF31F985B12009411FA /* SqueezeNet.mlmodel in Sources */,
+				63825FE01F94858E00973EA7 /* AppDelegate.swift in Sources */,
+				63239DF81F985D39009411FA /* GoogLeNetPlaces.mlmodel in Sources */,
+				63825FF21F949F0700973EA7 /* MobileNet.mlmodel in Sources */,
+				63239E071F9877C6009411FA /* VGG16.mlmodel in Sources */,
+				63239DFA1F985D50009411FA /* GoogLeNetPlacesViewController.swift in Sources */,
+				63239DFE1F985EEC009411FA /* Resnet50ViewController.swift in Sources */,
+				63239DF01F985207009411FA /* MobileNetViewController.swift in Sources */,
+				63239E091F9877E0009411FA /* VGG16ViewController.swift in Sources */,
+				63239DF51F985B37009411FA /* SqueezeNetViewController.swift in Sources */,
+				63825FF41F949FF100973EA7 /* UIImage+CVPixelBuffer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63825FE81F94858E00973EA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63825FE91F94858E00973EA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63825FEC1F94858E00973EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		63825FED1F94858E00973EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63825FEF1F94858E00973EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FA58D00C1995FE4E7B53BA4 /* Pods-CoreML-Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6DVDU22WC2;
+				INFOPLIST_FILE = "CoreML-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZYW.CoreML-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63825FF01F94858E00973EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF535E09E10882BC6FC55D6 /* Pods-CoreML-Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6DVDU22WC2;
+				INFOPLIST_FILE = "CoreML-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZYW.CoreML-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63825FD71F94858E00973EA7 /* Build configuration list for PBXProject "CoreML-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63825FEC1F94858E00973EA7 /* Debug */,
+				63825FED1F94858E00973EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63825FEE1F94858E00973EA7 /* Build configuration list for PBXNativeTarget "CoreML-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63825FEF1F94858E00973EA7 /* Debug */,
+				63825FF01F94858E00973EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63825FD41F94858E00973EA7 /* Project object */;
+}
